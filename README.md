@@ -1,0 +1,2 @@
+# software
+some software notes 
