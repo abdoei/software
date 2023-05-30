@@ -1,3 +1,12 @@
+/*
+* I made this before learning how to use a tool or program that comeswith 
+* nearly every compiller which is called c++filt when called from any CL like 
+* 
+* >> c++filt _ZN7MyClass3fooEv
+* MyClass::foo()
+*/
+
+
 #include <cstdlib>
 #include <iostream>
 #include <typeinfo>
