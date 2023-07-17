@@ -28,6 +28,7 @@ int main()
 
     // get the type of a reference to a void function that takes an int
     p1 = typeid(&foo).name();
+    std::cin >> p1;
     p2 = abi::__cxa_demangle(p1, 0, &length, &status);
     std::cout << p1 << " : " << (p2 ? p2 : p1) << '\n';
     FREE(p2);
